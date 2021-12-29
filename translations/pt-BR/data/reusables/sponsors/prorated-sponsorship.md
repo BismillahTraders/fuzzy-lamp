@@ -1,0 +1,1 @@
+Se você estiver iniciando um patrocínio mensal em nome da sua conta de usuário, você será cobrado imediatamente por um valor proporcional até a próxima data de cobrança. Se estiver patrocinando em nome de uma organização, você poderá optar por pagar o valor rateado ou fazer o pagamento mensal completo.
