@@ -202,7 +202,7 @@ jobs:
       # When the maximum execution time is reached for this job, Actions cancels the workflow run.
       # This emits a notification for the first responder to triage.
       - name: Send Slack notification if workflow is cancelled
-        uses: someimportantcompany/github-actions-slack-message@f8d28715e7b8a4717047d23f48c39827cacad340
+        uses: someimportantcompany/github-actions-slack-message@1d367080235edfa53df415bd8e0bbab480f29bad
         if: cancelled()
         with:
           channel: ${{ secrets.DOCS_ALERTS_SLACK_CHANNEL_ID }}
@@ -212,7 +212,7 @@ jobs:
 
       # Emit a notification for the first responder to triage if the workflow failed.
       - name: Send Slack notification if workflow failed
-        uses: someimportantcompany/github-actions-slack-message@f8d28715e7b8a4717047d23f48c39827cacad340
+        uses: someimportantcompany/github-actions-slack-message@1d367080235edfa53df415bd8e0bbab480f29bad
         if: failure()
         with:
           channel: ${{ secrets.DOCS_ALERTS_SLACK_CHANNEL_ID }}
